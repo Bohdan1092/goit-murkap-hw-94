@@ -137,7 +137,9 @@ text-decoration: none;
 margin-bottom: ;
 padding: 5px; */
 border-color: var(--logo-first-color);
-
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .list-mail {
@@ -152,13 +154,14 @@ margin-left: auto;
 /* .list-first:hover .icon {
     color: var(--logo-first-color);
 } */
-.itemm .icon {
+.itemm .icon-mail {
     width: 12px;
     height: 16px;
-    color: currentColor;
+    fill: currentColor;
     align-items: center;
-   
-}
+    margin-right: 10px;
+}   
+
 
 /* .mail::before {
     content: "";
@@ -381,14 +384,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.9;
-/* max-height: auto; */
-/* margin-top: 30px;
-margin-bottom: 10px; */
+margin-top: 25px;
+margin-bottom: 5px;
 
 }
 .conteiner-second {
-    padding: 16px 40px;
-    border: 2px  solid var(--section-bg-our-work);
+   margin-bottom: 10px;
 }
 .name-proffesion {
     color: var(--section-mail-color);
@@ -399,7 +400,7 @@ line-height: 1.9;
 .item-team {
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
+    padding-bottom: 124px;
 }
 .section-our-team .title {
     padding-top: 94px;
@@ -439,6 +440,52 @@ line-height: 1.9;
     display: inline-flex;
 }
 
+                /* ПОстоянные клиенты */
+
+
+.clients .title {
+    color: var(--tatle-text-color);
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: center;
+margin-bottom: 50px;
+border-radius: 2px solid red;
+}
+.icon-clients {
+    width: 106px;
+    height: 60px;
+    fill: var(--icon-color);
+    
+}
+.link-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    
+}
+.link-clients:hover .icon-clients,
+.link-clients:focus .icon-clients {
+    fill: var(--logo-first-color);
+
+}
+.item-clients:not(:last-child) {
+    margin-right: 30px;
+
+}
+.item-clients {
+    outline: 2px solid var(--icon-color);
+}
+.item-clients:hover {
+    outline: 2px solid var(--logo-first-color);
+}
+.title-clients {
+    display: inline-flex;
+    margin-bottom: 94px;
+}
 /* .icon-team::after {
     content: "";
     display: inline-flex;
