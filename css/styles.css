@@ -412,6 +412,8 @@ line-height: 1.9;
 }
 .icon-team {
      margin-right: 30px;
+     border: 1px solid var(--focus-color);
+     background-color: var(--logo-second-color);
      
 }
 .item-our-team:not(:last-child) {
@@ -444,6 +446,7 @@ line-height: 1.9;
 }
 .title-team {
     display: inline-flex;
+    margin-bottom: 30px;
 }
 
 
@@ -457,6 +460,7 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
+margin-top: 94px;
 margin-bottom: 50px;
 border-radius: 2px solid red;
 }
